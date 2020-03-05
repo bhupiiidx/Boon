@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Change Text By Java Script</title>
+</head>
+<body>
+
+    <h3 id="run">
+        Hi Everyone My name is Bhupender Kumar Singh
+    </h3>
+    
+    <h3 id="mun" >
+        Hi Everyone My name is Arvind Kumar Singh
+    </h3>
+    <button onclick= myfunction1() >Click This To change Size</button>
+    <button onclick=myfunction2()>Click to hide </button>
+    <button onclick=myfunction3()>Click to display </button>
+    <script>
+        function myfunction1(){
+            document.getElementById('run').style.fontSize='35px'  ;
+        }
+        function myfunction2(){
+            document.getElementById('mun').style.display='none' ;
+        }
+        function myfunction3(){
+            document.getElementById('mun').style.display='block';
+        }
+    </script>
+</body>
+</html>

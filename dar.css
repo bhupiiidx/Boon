@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sclass{
+    margin: auto ;
+    width: 400px;
+    height: 390px;
+}
+.d1class{
+    background-color: thistle;
+}
+.d2class{
+font-size: 180px;
+width: 400px;
+}
+.iclass{
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 227, 227);
+    text-align: center;
+    font-size: larger;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: right;
+}
+li a{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.s1class{
+    float: left;
+    margin-top: 15px;
+    
+}
+.s2class{
+    float: right;
+    margin-top: 15px;
+}
+.b1class{
+    padding: 10px;
+    width: 195px;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 20px;
+}
+.b2class{
+    padding: 10px;
+    width: 195px;
+    outline: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 20px;
+}
+.fclass{
+    bottom: 0px;
+    font-size: larger;
+    position: fixed;
+
+
+}
+.d4class{
+    padding: 14px 30px;
+    
+
+}
+
+.s3class{
+    float: left;
+    padding-left: 10px;
+
+}
+.s4class{
+    float: right;
+    padding-left: 10px;
+}
+.fclass a{
+    text-decoration: none;
+    color: black;
+    padding: 14px 20px;
+}
+a:hover{
+    color: tomato;
+}
+#fid{
+
+}
